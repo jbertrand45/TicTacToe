@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>TicTacToe</title>
+
+
+<!-- Styling for gameplay board and buttons-->
+  <style>
+    table {
+      border-collapse: collapse;
+      margin: 20px auto;
+    }
+
+/*cell area and dimensions set */
+    td {
+      width: 60px;
+      height: 60px;
+      text-align: center;
+      vertical-align: middle;
+      font-size: 2em;
+      border: 2px solid black;
+      cursor: pointer;
+    }
+    .win {
+      color: purple;
+    }
+    button {
+      display: block;
+      margin: 20px auto;
+      padding: 10px 20px;
+      font-size: 1em;
+    }
+  </style>
+</head>
+<body>
+  <table id="board"></table>
+  <button id="toggleButton">Start</button>
+
+  <script src="logic.js"></script>
+</body>
+</html>
