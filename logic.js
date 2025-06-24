@@ -10,9 +10,9 @@ function checkWin(board, player) {
 }
 
 
- //return true when board is full
+ /*return true when board is full
   @param {string[]} board
-  @returns {boolean}
+  @returns {boolean}*/
 
 function isDraw(board) {
   return board.every(cell => cell !== "");
